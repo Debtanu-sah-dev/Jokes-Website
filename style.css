@@ -1,0 +1,53 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: system-ui;
+}
+
+/* SORRY I AM NOT USNG ID'S AND CLASS'S */
+
+body{
+    background: rgb(244,147,3);
+    background: linear-gradient(90deg, rgba(244,147,3,1) 0%, rgba(255,214,76,1) 100%);
+}
+
+nav{
+    width: 97.7%;
+    border-radius: 10vmax;
+    margin: 1vmin;
+    height: 7vmin;
+    background-color: #000a;
+    padding: 1vmin;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav > button{
+    outline: none;
+    border: none;
+    padding: 1vmin;
+    font-size: 2.5vmin;
+    border-radius: 10vmax;
+    background: rgb(244,147,3);
+    background: linear-gradient(90deg, rgba(244,147,3,1) 0%, rgba(255,214,76,1) 100%);
+    cursor: pointer;
+    font-weight: 700;
+    text-shadow:  0  0 1vmin #0003;
+}
+
+nav > h1{
+    margin-left: 1vh;
+    text-shadow:  0  0 1vmin #0003;
+}
+
+h1:not(nav > h1){
+    text-shadow:  0  0 1vmin #0003;
+    /* SELF CENTERING */
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
